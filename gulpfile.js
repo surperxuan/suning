@@ -21,8 +21,8 @@ gulp.task("sass",function(){//压缩css；gulp-sass
 	.pipe(gulp.dest("dist/css"))
 })
 gulp.task('images',function(){//压缩图片
-	gulp.src('img/*.{jpg,png,gif}') 
-	.pipe(imagemin()) 
+	gulp.src('img/*/*.{jpg,png,gif}') 
+	// .pipe(imagemin()) 
 	.pipe(gulp.dest('dist/img'))
 	});
 gulp.task('scripts',function(){ //压缩js 
