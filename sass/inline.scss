@@ -1,0 +1,91 @@
+body,ul,li,span{margin:0;padding:0;}
+img{display:block;}
+a{text-decoration:none;color:black;}
+li{list-style:none;}
+a:hover{color:red;}
+body{background:#f8f8f8;}
+header{
+	width:990px;height:88px;
+	margin:0 auto;
+	margin-bottom:30px;
+	hgroup{
+		float:left;
+		width:190px;
+		height:88px;
+		line-height:88px;
+		background:url(../img/zhuce/sprite.png) no-repeat 0 8px;
+	}
+	.intor{line-height:88px;margin-left:40px;border:1px solid orangered;}
+	.inter{
+		span{background:url(../img/inline/sprite.png)no-repeat -67px -26px;}
+		width:200px;height:20px;
+		float:right;
+	}
+}
+section{
+	height:570px;
+	width:970px;
+	margin:0 auto;
+	background:url(../img/inline/154736040595311305.png) -770px 0;
+	.inline{
+		background:white;
+		width:300px;
+		height:420px;
+		 float:right;
+		 margin:75px 60px 75px 0;
+		 #linway{width:300px;height:40px;line-height:40px;text-align: center;
+		 #lookway{width:149px;height:40px;float:left;border-right:1px solid black;}
+		 #writeway{width:150px;height:40px;float:left;}
+		 }
+		
+		 .wayo{
+			 margin-top:40px;
+			 #dknow{margin-left:72px;}
+			  #sknow{display:none;}
+			  div{width:300px;text-align: center;height:30px;
+			  span{background:url(../img/inline/sprite.png) -164px -63px;}
+			  .ret{text-align: center;}
+			  }
+		 }
+		 .wayt{display:none;}
+		 
+		}	
+		.order{
+			width:300px;height:20px;margin:20px 20px 20px 50px;
+			li{float:left;}
+		}
+		.orway{
+			li:first-child{float:left;
+			span{
+				background:url(../img/inline/sprite.png) -140px -104px;
+			}}
+			li:nth-child(2){float:left;span{
+				background:url(../img/inline/sprite.png) -90px -22px;
+			}}
+			li:nth-child(3){float:left;span{
+				background:url(../img/inline/sprite.png) -120px -104px;
+			}}
+			li:nth-child(4){float:left;span{
+				background:url(../img/inline/sprite.png) 0px -146px;
+			}}
+		}
+		
+}
+
+
+footer{margin-top:20px;
+height:200px;
+	ul{
+		.first{width:540px;height:30px;margin:0 auto;}
+		.two{width:740px;height:30px;margin:0 auto;}
+		.third{width:760px;height:30px;margin:0 auto;
+		a{float:left;
+		img{float:left;}
+		}
+		}
+		.forth{width:540px;height:30px;margin:0 auto;}
+		.fifth{width:440px;height:30px;margin:0 auto;
+		img{float:left;margin-left:10px;}
+		}
+	}
+}

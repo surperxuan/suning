@@ -15,12 +15,16 @@ header{
 		background:url(../img/zhuce/sprite.png) no-repeat 0 8px;
 	}
 	span{height:88px;float:left;line-height:88px;font-size:20px;margin-left:20px;}
-	a{float:right;line-height:128px;}
+	.great{float:right;line-height:128px;}
+	article{display:none;}
 }
 section{
 	width:992px;
 	height:446px;
 	margin:0 auto;
+	border:1px solid #cecece;
+	border-top:4px solid orange;
+	background:white;
 	.main{width:360px;height:446px;margin:0 auto;}
 	.libao{
 		a{color:red;}
@@ -42,4 +46,19 @@ section{
 	#eye{float:right;margin:10px 6px 0 0;width:20px;height:20px;background:url(../img/zhuce/sprite.png)no-repeat -25px -94px;}
 	#online{width:360px;height:40px;background:orange;border:0;}
 	#online:hover{background:orangered;}
+}
+footer{margin-top:20px;
+height:200px;
+	ul{
+		.first{width:540px;height:30px;margin:0 auto;}
+		.two{width:740px;height:30px;margin:0 auto;}
+		.third{width:760px;height:30px;margin:0 auto;
+		a{float:left;
+		img{float:left;}
+		}
+		}
+		.forth{width:540px;height:30px;margin:0 auto;}
+		.fifth{width:440px;height:30px;margin:0 auto;
+		img{float:left;}}
+	}
 }
