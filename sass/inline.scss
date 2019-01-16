@@ -66,7 +66,7 @@ section{
 			#faltu{width:200px;height:40px;border:0;background:none;float:left;outline: none;}
 			span:last-child{display:none;float:right;background: url(../img/inline/sprite.png) -91px -107px;margin:0 10px 0 10px;}
 			}
-			ul{width:300px;height:30px;margin:0 auto;font-size:14px;color:#cecece;line-height:30px;margin:20px 0 20px 0;
+			ul{width:300px;height:30px;margin:20px auto 10px auto;font-size:14px;color:#cecece;line-height:30px;
 				li:first-child{width:150px;height:20px;float:left;
 				span{float:left;background: url(../img/inline/sprite.png) no-repeat -20px -142px;}
 				a{display:block;margin-top:0;}
@@ -79,18 +79,17 @@ section{
 			outline:none;cursor:pointer;margin:20px 0 20px 20px;}
 			#inline:hover{background:orangered;}
 				
-			a{display:block;width:150px;margin:0 auto;margin-top:20px;}
+			a{display:block;width:140px;margin:0 auto;}
 			}
 			}
 		}	
 		.order{
-			width:340px;height:20px;margin:20px 20px 20px 50px;
-			li{float:left;}
+			width:300px;height:20px;margin:20px auto 14px auto;border-bottom: 1px solid #cecece;line-height:40px;
+			span{display:block;width:130px;background:white;margin:0 auto;}
 		}
-		.orway{
-			li{margin:0 5px 0 5px;}
-			li:first-child{float:left;
-			span{
+		.orway{width:300px;height:20px;margin:0 auto;
+			li{font-size:15px;}
+			li:first-child{float:left;span{
 				background:url(../img/inline/sprite.png) -140px -104px;
 			}}
 			li:nth-child(2){float:left;span{

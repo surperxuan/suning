@@ -35,7 +35,7 @@ $(function(){
 		var val = $("#phone").val();
 		var pw = $("#pwor").val();
 		var or=$("#trin").val();
-		console.log(val,pw);
+		console.log(val,pw,or);
 		$.post("http://47.104.244.134:8080/usersave.do",{
 		"username":val,
 		"password":pw,
@@ -44,7 +44,7 @@ $(function(){
 		},function(data){
 			console.log(data,data.code)
 			if(data.code==0){
-				location.href = "index.html";
+				location.href = "inline.html";
 			}
 		});
 	});

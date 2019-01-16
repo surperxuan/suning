@@ -1,0 +1,129 @@
+*{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;color:black;}
+a:hover{color:orangered;}
+img{display:block;border:0;}
+body{background:#f2f2f2;}
+header{
+    nav{width:1080px;height:30px;line-height:30px;margin:0 auto;font-size:14px;background:#cecece;
+        ul:first-child{
+            float:left;
+            li{float:left;margin-left:4px;}
+        }
+        ul:nth-child(2){
+            float:right;
+            li{float:left;margin-left:4px;}
+        }
+        .cknav{width:70px;height:180px;display:none;position:fixed;top:30px;background:white;}
+        .workfu{width:70px;height:180px;display:none;position:fixed;top:30px;left:190px;background:white;}
+    }
+    .sogo{
+        width:1080px;height:90px;margin:0 auto;
+        hgroup{
+            img{width:190px;height:90px;float:left;}
+        }
+        img{float:left;}
+        ul{float:left;width:300px;height:90px;
+            li{width:600px;height:30px;float:left;
+            a{float:left;font-size:15px;margin-right:4px
+            }}
+            div{width:500px;height:40px;border:2px solid orange;margin:30px 0 0 0;
+                span{float:left;}
+               #find{width:400px;height:40px;float:left;border:0;background:none;outline:none;}
+               #litgo{font-size:16px;width:71px;height:40px;float:right;border:0;background:orange;outline:none;}  
+            }
+           
+            }
+        }
+    }
+article{
+    width:1080px;height:402px;margin:10px auto 0 auto;
+    ul:first-child{width:210px;height:402px;background:#333;float:left;
+        li{height:40px;line-height:40px;
+            a{color:white;margin:0 20px 0 20px;font-size:14px;}
+            a:hover{color:orangered;}
+        }
+        li:first-child{background:orange;}
+      }
+    .banner{
+        width:670px;height:402px;float:left;
+        banner{
+            img{width:670px;height:322px;}
+        }
+        ul{
+            li{
+                img{
+                    width:165px;height:80px;float:left;
+                }
+            }
+        }
+    }
+    aside{width:200px;height:402px;float:right;
+        div{
+            a{
+            img{margin:0 auto;}
+            }
+            ul{width:200px;height:80px;border-bottom:1px solid #cecece;
+                li{
+                    a{
+                       display:block;width:70px;height:20px;background:url(../img/index/index.png) no-repeat -295px -252px;
+                    float:left;margin:10px 12px;
+                    }
+                    
+                }
+                li:first-child{a:first-child{margin:8px 10px;
+                        background: white;color:orange;border:1px solid orange;line-height: 20px;text-align: center;
+                    }
+                }
+            }
+        }
+       .under{
+            width:200px;height:120px;
+            a{
+                font-size: 14px;line-height:40px;
+            }
+        }
+        .nexr{
+            width:200px;height:100px;
+            li{width:98px;height:48px;float:left;text-align: center;line-height: 50px;border:1px solid #cecece;}
+        } 
+    }
+    }
+    section{width:1080px;height:1344px;margin:50px auto;background:white;
+            .sectim{
+                width:1080px;height:40px;
+                li{float:left;margin:0 20px 0 20px;line-height: 40px;}
+                li:first-child{margin-top:10px;}
+                li:last-child{float:right;}
+            }
+            #buylist{
+                ul{width:250px;height:420px;margin-right:18px;margin-bottom:20px;border:1px solid #cecece;
+                img{width:250px;}
+                    float:left;
+                    li{width:250px;float:left;}
+                    #buy{width:80px;height:40px;border:0;background:orange;outline:none;}
+            }
+        }
+    }
+
+
+
+
+
+
+footer{margin-top:20px;
+        height:200px;
+        width:1080px;margin:0 auto;
+    ul{
+        .first{width:540px;height:30px;margin:0 auto;}
+        .two{width:740px;height:30px;margin:0 auto;}
+        .third{width:760px;height:30px;margin:0 auto;
+        a{float:left;
+        img{float:left;}
+        }
+        }
+        .forth{width:540px;height:30px;margin:0 auto;}
+        .fifth{width:440px;height:30px;margin:0 auto;
+        img{float:left;}}
+    }
+}

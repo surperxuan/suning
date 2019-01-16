@@ -19,4 +19,30 @@ $(function(){
 		$("#dknow").css("translateX","72px");
 		$("#dknow").css("transition","1s all");
 	});
-})
+	$("#phone").on("change",function(){
+		$(".delet1").css("display","block").click(function(){
+			$("#phone").val("");
+			$(".delet1").css("display","none");
+		})
+	});
+	$("#faltu").on("change",function(){
+		$(".delet2").css("display","block").click(function(){
+			$("#faltu").val("");
+			$(".delet2").css("display","none");
+		});
+	});
+	$("#inline").on("click",function(){
+		$.post("http://47.104.244.134:8080/userlogin.do",
+		{"name":$("#phone").val(),
+		 "password":$("#faltu").val(),
+		},
+		function(data){
+			console.log(data)
+			if(data.code==0){
+				location.href = "index.html";
+				$.cookie("token",data.data.token);
+			}
+		}
+		)
+	});
+});
