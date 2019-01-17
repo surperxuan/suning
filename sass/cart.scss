@@ -1,0 +1,71 @@
+*{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;color:black;}
+a:hover{color:orangered;}
+img{display:block;border:0;}
+body{background:#f2f2f2;}
+header{
+    nav{width:1080px;height:30px;line-height:30px;margin:0 auto;font-size:14px;background:#cecece;
+        ul:first-child{
+            float:left;
+            li{float:left;margin-left:4px;}
+        }
+        ul:nth-child(2){
+            float:right;
+            li{float:left;margin-left:4px;}
+        }
+        .cknav{width:70px;height:180px;display:none;position:fixed;top:30px;background:white;}
+        .workfu{width:70px;height:180px;display:none;position:fixed;top:30px;left:190px;background:white;}
+    }
+    .sogo{
+        width:1080px;height:90px;margin:0 auto;
+        hgroup{
+            img{width:190px;height:90px;float:left;}
+        }
+        img{float:left;}
+        ul{float:right;width:300px;height:90px;margin-right:206px;
+            li{width:600px;height:30px;float:left;
+            a{float:left;font-size:15px;margin-right:4px
+            }}
+            div{width:500px;height:40px;border:2px solid orange;margin:30px 0 0 0;
+                span{float:left;}
+               #find{width:400px;height:40px;float:left;border:0;background:none;outline:none;}
+               #litgo{font-size:16px;width:71px;height:40px;float:right;border:0;background:orange;outline:none;}  
+            }
+           
+            }
+        }
+    }
+	
+	section{width:1080px;height:1384px;margin:50px auto;background:white;
+	#buylist{
+	ul{width:250px;height:500px;margin-right:18px;margin-bottom:20px;border:1px solid #cecece;
+	img{width:250px;}
+	    float:left;
+	    li{width:250px;float:left;}
+		
+		.addBtn{width:20px;height:20px;line-height:20px;font-size:16px;background:orange;border:0;}
+		.minBtn{width:20px;height:20px;line-height:20px;font-size:16px;background:orange;border:0;}
+		.delet{width:80px;height:30px;line-height:30px;font-size:16px;background:orange;border:0;}
+		}
+		}
+	#totlePri{width:1080px;height:60px;background:orange;font-size:24px;position:fixed;bottom:20px;}
+	}
+	
+	
+	footer{margin-top:20px;
+	        height:200px;
+	        width:1080px;margin:0 auto;
+	    ul{
+	        .first{width:540px;height:30px;margin:0 auto;}
+	        .two{width:740px;height:30px;margin:0 auto;}
+	        .third{width:760px;height:30px;margin:0 auto;
+	        a{float:left;
+	        img{float:left;}
+	        }
+	        }
+	        .forth{width:540px;height:30px;margin:0 auto;}
+	        .fifth{width:440px;height:30px;margin:0 auto;
+	        img{float:left;}}
+	    }
+	}

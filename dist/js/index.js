@@ -12,11 +12,33 @@ $(function(){
 						<li>${data.data[i].id}</li>
 						<img src='${data.data[i].picurl}'/>
 						<li>${data.data[i].name}</li>
-						<li>$${data.data[i].price}</li>
-						<li><input type='button' value='添加到购物车' id="buy" class="${data.data[i].data}"/></li>
+						<li>${data.data[i].price}</li>
+						<input type='button' value='添加到购物车' class='buy' id='${data.data[i].id}'/>
 					</ul>`;
 				}
 				$("#buylist").html(str);
+				$(".buy").click(function(){
+					var id=this.id;
+					var token=$.cookie("token");
+					console.log(token);
+					$.get(
+					"http://47.104.244.134:8080/cartsave.do",{
+					gid:id,
+					token:token
+			},
+				function(data){
+					console.log(id)
+					if(data.code==0){
+						console.log("aa");
+						$("#buy").click(function(){
+							location.href="cart.html";
+						})
+						
+					}
+				}
+				)
+				})
+				
 		});
 	$(".cknav,.daoha").on("mouseover",function(){
 		$(".cknav").css("display","block");
@@ -34,7 +56,5 @@ $(function(){
 			$(".workfu").css("display","none")
 			$(".buyer").css("background","none");
 	});
-	$("#buy").click(function(){
-		console.log("aa");
-	});
+	
 });

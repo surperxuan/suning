@@ -89,7 +89,7 @@ article{
         } 
     }
     }
-    section{width:1080px;height:1344px;margin:50px auto;background:white;
+    section{width:1080px;height:1384px;margin:50px auto;background:white;
             .sectim{
                 width:1080px;height:40px;
                 li{float:left;margin:0 20px 0 20px;line-height: 40px;}
@@ -97,13 +97,15 @@ article{
                 li:last-child{float:right;}
             }
             #buylist{
+				
                 ul{width:250px;height:420px;margin-right:18px;margin-bottom:20px;border:1px solid #cecece;
                 img{width:250px;}
                     float:left;
                     li{width:250px;float:left;}
-                    #buy{width:80px;height:40px;border:0;background:orange;outline:none;}
+                    .buy{width:80px;height:40px;border:0;background:orange;outline:none;}
             }
         }
+		#buy{width:80px;height:40px;border:0;background:red;outline:none;}
     }
 
 
